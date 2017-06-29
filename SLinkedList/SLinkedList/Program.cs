@@ -64,6 +64,27 @@ namespace SLinkedList
             }
         }
         //Double Linked List
+    public class DLinkedList
+    {
+        private int data;
+        private DLinkedList next;
+        private DLinkedList prev;
+
+        public DLinkedList()
+        {
+            data = 0;
+            next = null;
+            prev = null;
+        }
+        public DLinkedList(int value)
+        {
+            data = value;
+            next = null;
+            prev = null;
+        }
+        
+    }
+
 
     }
 
